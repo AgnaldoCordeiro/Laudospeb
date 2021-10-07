@@ -8,23 +8,27 @@ const Headers = (props) => {
   const toggle = () => setIsOpen(!isOpen);
 
   return (
-    <div>
-      <header className="hd-content">
-        <div className="container">
-          <div className="hd-content-menu">
-
-            <h1 className="hd-logo-a">INSPEÇÕES PREDIAIS</h1>
-            <ul className="hd-ul">
-              <li><a href="/.#home" className="hd-li-a">Home</a></li>
-              <li><a href="/.#servicos" className="hd-li-a">Serviços</a></li>
-              <li><a href="/.#quemsomos" className="hd-li-a">Quem Somos</a></li>
-              <li> <a href="/.#inspecaomanutencao" className="hd-li-a">Inspeção</a></li>
-              <li><a href="/.#contact" className="hd-li-a">Contato</a></li>
-            </ul>
-          </div>
-        </div>
-      </header>
+    <div className="container-fluid">
+    <div className="row">
+        <nav id="hd-content" className="navbar navbar-expand-sm navbar-dark bg-dark col-12 flex-sm-column flex-lg-row align-items-start">
+            <a id="hd-logo-a" href="#" className="navbar-brand">INSPEÇÕES PREDIAIS</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+                <ul id="hd-ul" className="navbar-nav">
+                    <li id="hd-li-a" className="nav-item"><a className="nav-link" href="/.#home">Home</a></li>
+                    <li id="hd-li-a" className="nav-item"><a className="nav-link" href="/.#servicos">Serviços</a></li>
+                    <li id="hd-li-a" className="nav-item"><a className="nav-link" href="/.#quemsomos">Quem Somos</a></li>
+                    <li id="hd-li-a" className="nav-item"><a className="nav-link" href="/.#inspecaomanutencao">Inspeção e Manutenção</a></li>
+                    <li id="hd-li-a" className="nav-item"><a className="nav-link" href="/.#contact">Contato</a></li>          
+                </ul>
+            </div>
+        </nav>
     </div>
+</div>
+
   );
 }
 

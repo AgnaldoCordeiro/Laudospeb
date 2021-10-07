@@ -17,7 +17,7 @@ export default function Quemsomos() {
                     py-4
                     px-6                                     
                     ">
-                        <img className="" src="./quemsomos.png" alt="quem somos"/>
+                        <Image className="" src="/quemsomos.png" alt="quem somos" width="350" height="350"/>
                     </div>
                 </div>
             </div>

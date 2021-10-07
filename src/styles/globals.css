@@ -45,9 +45,10 @@ html,
   }
 
   /* componente header */
-  .hd-content{
+  #hd-content{
     display:flex;
     align-items: center;
+    justify-content: space-between;
     background-color: rgb(2, 2, 2);
     overflow: hidden;
     padding: 5px 10px; /* Large padding which will shrink on scroll (using JS) */
@@ -56,20 +57,15 @@ html,
     width: 100%;
     top: 0; /* At the top */
     z-index: 99;   
-    
+    padding: 2rem;
 }
-.hd-content-menu{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+
+#hd-ul{
+  text-align: end;
+  justify-items: end;
+   
 }
-.hd-ul{
-  display: flex;
-  margin-top: 0.75rem;
-  margin-right: 1rem;
-  margin-left: 5rem; 
-}
-.hd-li-a{
+#hd-li-a{
   position: relative;
   padding: 0 .5em;
   display: inline-block;
@@ -81,20 +77,18 @@ html,
   font-size: 15px;   
 }
 
-.hd-li-a:hover{
+#hd-li-a:hover{
   color: rgb(48, 5, 236);
   background-color: #ddd;
   
 }
 
-.hd-logo-a{
+#hd-logo-a{
   text-decoration: none;
   color: rgb(255, 255, 255);
   padding-right: 0.5rem;
   padding-left: 0.5rem;
   margin-right: 2rem; 
-  font-size: 30px; 
-  width: 100%;
 }
 
 
