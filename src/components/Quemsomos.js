@@ -1,4 +1,4 @@
-import Image from 'next/image' 
+
 
 export default function Quemsomos() {
     return (
@@ -17,7 +17,7 @@ export default function Quemsomos() {
                     py-4
                     px-6                                     
                     ">
-                        <Image className="" src="/quemsomos.png" alt="quem somos" width="350" height="350"/>
+                        <img className="" src="/quemsomos.png" alt="quem somos" width="350" height="350"/>
                     </div>
                 </div>
             </div>

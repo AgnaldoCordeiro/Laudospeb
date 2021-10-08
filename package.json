@@ -2,10 +2,11 @@
   "name": "app_Laudospeb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pebengenharia.com.br/",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
     "start": "next start",
+    "dev": "next dev",
+    "build": "next build && next export",
     "lint": "next lint"
   },
   "dependencies": {
